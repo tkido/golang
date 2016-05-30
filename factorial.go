@@ -3,11 +3,11 @@ package main
 import "fmt"
 
 func fact(n int) int {
-	if n <= 1 {
-		return 1
-	} else {
-		return n * fact(n-1)
+	var rst = 1
+	if n > 1 {
+		rst = n * fact(n-1)
 	}
+	return rst
 }
 
 func main() {
