@@ -7,9 +7,9 @@ import "fmt"
 func fibonacci() func() int {
 	a, b := 0, 1
 	f := func() int {
-    a = a + b
-    a, b = b, a
-    return a
+		a = a + b
+		a, b = b, a
+		return a
 	}
 	return f
 }

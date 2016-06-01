@@ -17,6 +17,4 @@ func Sqrt(x float64) float64 {
 func main() {
 	fmt.Println(math.Sqrt(2))
 	fmt.Println(Sqrt(2))
-
-	fmt.Println("ということで今日はAtomテキストエディタに表示している日本語フォントの設定を簡単に変更する方法をお伝えしますね。")
 }
